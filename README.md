@@ -43,7 +43,7 @@ pip3 install numpy
 
 Run
 ```bash
-python3 event_loop.py
+python3 main.py
 ```
 
 ### File Structure
@@ -53,19 +53,21 @@ The hierarchy should look like this:
     ./
     ├── README.md
     └── src
-        ├── configs
-        │   └── gui_config.yaml
-        ├── gui.py
-        ├── program_handler.py
-        ├── video.py
+        ├── gui
+        │   ├── gui.py
+        │   └── event_loop.py
+        ├── program_handler
+        │   └── program_handler.py
+        ├── video_handler
+        │   └── video_handler.py
         ├── requirements.txt
         ├── files
         │   ├── videos
         │   ├── analyzes
         │   ├── thumbnails
         │   └── graphics
-        │       └── logo.png
-        └── run.py
+        │       └── front_picture.png
+        └── main.py
 
 
 
