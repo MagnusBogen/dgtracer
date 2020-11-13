@@ -51,6 +51,9 @@ Run
 python3 main.py
 ```
 
+A test video can be downloaded here:
+https://drive.google.com/drive/folders/1wehdXLM9Nne91L7Y-IYV_3ToiNELzCUn?usp=sharing
+
 ### File Structure
 
 The hierarchy should look like this:
