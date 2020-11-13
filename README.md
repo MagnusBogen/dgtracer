@@ -29,13 +29,15 @@ Tracking of disc from video
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ```bash
-mk_work_dir
-cd ../../../../work/username
-rm -rf . // dobbeltsjekk denne kommandoen hehe
-git clone ...
-cd ...
-rm -rf ~/.local/lib/python3.6/site-packages/
-rm -rf ~/.local/lib/python2.7/site-packages/
+git clone https://github.com/MagnusBogen/dgtracer.git
+cd dgtracer
+```
+Check that you have Python 3.8.5. Other versions of python 3 may also work, but not tested.
+```bash
+python3 --version
+```
+
+```bash
 pip3 install PySimpleGUi
 pip3 install cv2
 pip3 install numpy
