@@ -30,17 +30,27 @@ These instructions will get you a copy of the project up and running on your loc
 
 ```bash
 git clone https://github.com/MagnusBogen/dgtracer.git
-cd dgtracer
 ```
 Check that you have Python 3.8.5. Other versions of python 3 may also work, but not tested.
 ```bash
 python3 --version
 ```
-
+Make a virtual environment.
+```bash
+python3 -m venv dgTracer_env
+cd dgTracer_env/bin
+source activate
+cd ../..
+cd dgtracer
+```
+Upgrade pip
+```bash
+pip install --upgrade pip
+```
+Install requirements
 ```bash
 pip3 install PySimpleGUi
-pip3 install cv2
-pip3 install numpy
+pip install opencv-python
 ```
 
 Run
