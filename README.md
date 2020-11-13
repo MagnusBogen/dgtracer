@@ -1,16 +1,9 @@
 <h1 align="center">Disc tracker</h1>
 
-<div align="center">
-
-  [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
-
-</div>
-
 ---
 
 <p align="center">
-Gui and Disc tracker using opencv camshift
+Gui with object tracer using opencv camshift.
 </p>
 <br>
 
@@ -50,7 +43,7 @@ pip install --upgrade pip
 Install requirements
 ```bash
 pip3 install PySimpleGUi
-pip install opencv-python
+pip3 install opencv-python
 ```
 
 Run
@@ -72,7 +65,6 @@ The hierarchy should look like this:
         │   └── program_handler.py
         ├── video_handler
         │   └── video_handler.py
-        ├── requirements.txt
         ├── files
         │   ├── videos
         │   ├── analyzes
@@ -85,8 +77,9 @@ The hierarchy should look like this:
 
 
 ## ⛏️ Built Using <a name = "built_using"></a>
-- [Python 3.7](https://www.python.org/)
-
+- [Python 3.8.5](https://www.python.org/)
+- [OpenCV 4.4.0.46](https://opencv.org)
+- [PySimpleGUI 4.31.0](https://pysimplegui.readthedocs.io/en/latest/)
 
 ## ✍️ Authors <a name = "authors"></a>
 - Magnus Bogen Brurok
